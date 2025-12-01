@@ -1,0 +1,13 @@
+[project]
+name = "advent-of-code-25"
+version = "0.1.0"
+description = "Just my advent of code stuff"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "html-to-markdown>=2.9.2",
+    "requests>=2.32.5",
+]
+
+[project.scripts]
+    aoc-25 = "main:main"
