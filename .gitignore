@@ -10,3 +10,7 @@ wheels/
 .venv
 
 .env
+
+# Puzzle input and readme files should not be redistributed
+*/day-*/input.txt
+*/day-*/README.md
